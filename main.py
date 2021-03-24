@@ -13,6 +13,7 @@ def main() :
                 delta = b ** 2 - 4 * a * c
                 if delta > .0:
                     x1 = (-b - sqrt(delta)) / (2 * a)
+
                     x2 = (-b + sqrt(delta)) / (2 * a)
                     print("Le polynôme a deux racines réelles distinctes :", x1, "et", x2)
                 elif delta == .0:
