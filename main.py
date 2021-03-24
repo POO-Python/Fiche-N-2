@@ -18,4 +18,4 @@ def main() :
     except Exception:
         print("Une erreur c'est produite.")
 
-main()
+main() 
